@@ -1,0 +1,19 @@
+{
+    "name": "yangcp/page_test",
+    "description": "my first package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ycp19940225",
+            "email": "820363773@qq.com"
+        }
+    ],
+    "require": {
+        "php":">=7"
+    },
+    "autoload":{
+        "psr-4":{
+            "Yangcp\\": "src/"
+        }
+    }
+}
